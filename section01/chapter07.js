@@ -13,3 +13,39 @@ let num6 = 1 + 2 * 10;
 console.log(num6); // 21
 
 // 3. 복합 대입 연산자
+let num7 = 10;
+// num7 = num7 + 20;
+num7 += 20;
+num7 -= 20;
+num7 *= 20;
+num7 /= 20;
+num7 %= 20;
+console.log(num7);
+
+// 4. 증감 연산자
+let num8 = 10;
+console.log(--num8); // 전위 연산 : 9
+console.log(num8--); // 후위 연산 : 9
+console.log(num8); // 8
+
+// 5. 논리 연산자
+let or = true || false;
+
+let and = true && true;
+
+let not = !true;
+
+console.log(or, and, not);
+
+// 6. 비교 연산자
+let comp1 = 1 === 2;
+let comp2 = 1 !== 2;
+console.log(comp1, comp2); // false true
+
+let comp3 = 2 > 1;
+let comp4 = 2 < 1;
+console.log(comp3, comp4);
+
+let comp5 = 2 >= 2;
+let comp6 = 2 <= 2;
+console.log(comp5, comp6); // true, true
