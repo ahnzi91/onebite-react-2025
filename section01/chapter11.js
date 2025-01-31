@@ -1,4 +1,4 @@
-// 함수 선언
+// 함수 선언식
 // -> 함수를 새롭게 만드는 행위
 function greeting() {
   console.log("안녕하세요!");
